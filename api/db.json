@@ -1,0 +1,196 @@
+{
+
+    "products": [
+        {
+            "id": 1,
+            "name": "Fancy Chair",
+            "img" : "./src/img/chair.jpg",
+            "price" : 300,
+            "description": "Good Chair",
+            "category" : "Office"
+
+        },
+        {
+            "id": 2,
+            "name": "Fancy Drawer",
+            "img" : "./src/img/drawer.jpg",
+            "price" : 500,
+            "description": "Good drawer",
+            "category" : "House"
+
+        },
+        {
+            "id": 3,
+            "name": "Fancy Bed",
+            "img" : "./src/img/bed.jpg",
+            "price" : 1500,
+            "description": "Good bed",
+            "category" : "House"
+
+        },
+        {
+            "id": 4,
+            "name": " Sofa Bed",
+            "img" : "./src/img/sofa1.jpg",
+            "price" : 1200,
+            "description": "Good bed",
+            "category" : "House"
+
+        },
+        {
+            "id": 5,
+            "name": "Ikea Bed",
+            "img" : "./src/img/bed2.jpg",
+            "price" : 1500,
+            "description": "Good bed",
+            "category" : "House"
+
+        },
+        {
+            "id": 6,
+            "name": "Quality Bed",
+            "img" : "./src/img/bedic.jpeg",
+            "price" : 350,
+            "description": "Good bed",
+            "category" : "House"
+
+        },
+        {
+            "id": 7,
+            "name": "Office Chair",
+            "img" : "./src/img/office2.jpg",
+            "price" : 852,
+            "description": "Good chair",
+            "category" : "Office"
+
+        },
+        {
+            "id": 8,
+            "name": "Stupid Lamp",
+            "img" : "./src/img/lamp.jpg",
+            "price" : 200,
+            "description": "Good bed",
+            "category" : "Other"
+
+        },
+        {
+            "id": 9,
+            "name": "Kitchen Chair",
+            "img" : "./src/img/chair4.jpg",
+            "price" : 300,
+            "description": "Good Chair",
+            "category" : "House"
+
+        },
+        {
+            "id": 10,
+            "name": "King Size Bed",
+            "img" : "./src/img/king size.jpg",
+            "price" : 1500,
+            "description": "Good bed",
+            "category" : "House"
+
+        },
+        {
+            "id": 11,
+            "name": "King size extra",
+            "img" : "./src/img/king size extra.jpg",
+            "price" : 2500,
+            "description": "GoodS bed",
+            "category" : "House"
+
+        },
+        {
+            "id": 12,
+            "name": "House Lamp",
+            "img" : "./src/img/lamp house.jpg",
+            "price" : 300,
+            "description": "Good lamp",
+            "category" : "House"
+
+        },
+        {
+            "id": 13,
+            "name": "Office desk",
+            "img" : "./src/img/office3.jpg",
+            "price" : 1850,
+            "description": "Good desk",
+            "category" : "Office"
+
+        },
+        {
+            "id": 14,
+            "name": "High quality chair ",
+            "img" : "./src/img/chair-office1.jpg",
+            "price" : 1500,
+            "description": "Good chair",
+            "category" : "Office"
+
+        },
+        {
+            "id": 15,
+            "name": "Plant",
+            "img" : "./src/img/plant.jpg",
+            "price" : 1500,
+            "description": "Good plant",
+            "category" : "Other"
+
+        }
+        ,
+        {
+            "id": 16,
+            "name": "Small Desk",
+            "img" : "./src/img/smalldesk.jpg",
+            "price" : 550,
+            "description": "Good desk",
+            "category" : "House"
+
+        }
+        ,
+        {
+            "id": 17,
+            "name": "Meeting desk",
+            "img" : "./src/img/meeting desk.jpg",
+            "price" : 2500,
+            "description": "Good desk",
+            "category" : "Office"
+
+        },
+        {
+            "id": 18,
+            "name": "Beer Pong table ",
+            "img" : "./src/img/beerpong.jpg",
+            "price" : 2500,
+            "description": "Good table",
+            "category" : "Other"
+
+        },
+        {
+            "id": 19,
+            "name": "Paint for wall",
+            "img" : "./src/img/painting.jpg",
+            "price" : 3500,
+            "description": "Good paint",
+            "category" : "Other"
+
+        },
+        {
+            "id": 20,
+            "name": "TV table ",
+            "img" : "./src/img/tvtable.jpg",
+            "price" : 150,
+            "description": "Good table",
+            "category" : "House"
+
+        },
+        {
+            "id": 21,
+            "name": "Soap holder",
+            "img" : "./src/img/holder.jpg",
+            "price" : 50,
+            "description": "Good holder",
+            "category" : "Other"
+
+        }
+    ]
+}

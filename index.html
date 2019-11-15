@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Shop Homepage - Basset</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="boots/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/style.css">
+  <script src="https://kit.fontawesome.com/d0a7ddc15b.js" crossorigin="anonymous"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="boots/css/shop-homepage.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="container">
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+          </div>
+
+
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form_main">
+                    <h4 class="heading"><strong>Contact </strong> Details <span></span></h4>
+                    <div class="form">
+                      <form action="contact_send_mail.php" method="post" id="contactFrm" name="contactFrm">
+                        <input type="text" required="" placeholder="Please input your Name" value="" name="name"
+                          class="txt">
+                        <input type="text" required="" placeholder="Please input your mobile No" value="" name="mob"
+                          class="txt">
+                        <input type="text" required="" placeholder="Please input your Email" value="" name="email"
+                          class="txt">
+                        <textarea placeholder="Your Message" name="mess" type="text" class="txt_3"></textarea>
+                        <input type="submit" value="submit" name="submit" class="txt2">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div id="widget">
+                </div>
+              </div>
+              <h1 class="total-d">Total:<p id="summary-head"></p>
+              </h1>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="logo-span"><img src="src/img/logo.png" alt=""></span></a>
+        <button class="navbar-toggler" type="button" data-hide="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+
+
+
+
+          <div id="mySidenavR" class="sidenavR">
+            <a href="javascript:void(0)" id="closebtn">×</a>
+            <div class="container mb-4">
+              <div class="row">
+                <div class="col-12">
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">Photo</th>
+                          <th scope="col">Product</th>
+                          <th scope="col" class="text-center">Category</th>
+                          <th scope="col" class="text-center">Quantity</th>
+                          <th scope="col" class="text-right">$/Unit</th>
+                          <th> </th>
+                        </tr>
+                      </thead>
+                      <tbody id="tbody">
+                        <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+
+                        </tr>
+                      </tbody>
+                      <td><strong>Total: </strong></td>
+                      <td class="text-right"><strong id="total"></strong></td>
+
+                    </table>
+                  </div>
+                </div>
+                <div class="col mb-2">
+                  <div class="row">
+
+                    <div class="col-sm-12 col-md-6 text-right">
+                      <br>
+                      <button type="button" class="btn btn-success btn-lg" data-toggle="modal"
+                        data-target="#myModal">Checkout</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <div class="row">
+                  <div class="col-xs-1">
+                    <span id="cart" style="font-size:30px;cursor:pointer"><i class="fas fa-shopping-cart"></i></span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-3">
+
+          <h1 class="my-4">Ecommerce Basset</h1>
+          <div class="list-group">
+            <a href="#" class="badge list-group-item ">Office</a>
+            <a href="#" class="badge list-group-item">House</a>
+            <a href="#" class="badge list-group-item">Other</a>
+          </div>
+
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+
+          <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="src/img/img2.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="src/img/img3.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="src/img/img1.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div id="main-content" class="row"></div>
+
+          <div class="pag-wrapper">
+            <ul class="pagination">
+              <li><a id="prev" class="page-link" href="#">Previous</a></li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li id="next"><a class="page-link" href="#">Next</a></li>
+            </ul>
+            <div class="input-group">
+
+              <select class="custom-select" id="inputGroupSelect01">
+                <option>6</option>
+                <option>10</option>
+                <option>20</option>
+                <option>50</option>
+              </select>
+            </div>
+          </div>
+          <!-- /.row -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Basset 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+    <script src="./build/app.bundle.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="boots/vendor/jquery/jquery.min.js"></script>
+    <script src="boots/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
